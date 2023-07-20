@@ -1,6 +1,26 @@
+body{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    flex-direction: row;
+}
+
 #canvas1{
     border: solid;
     border-color: black;
     height: 600;
     width: 600;
 }
+
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.controls , select , option{
+    font-size: 25px;
+}
+
