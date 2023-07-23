@@ -1,0 +1,13 @@
+#container{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border: solid 3px black;
+    top: 50%;
+    left:50%;
+}
+
+#canvas{
+    width: 500px;
+    height: 1000px;
+    position: relative;
+}
