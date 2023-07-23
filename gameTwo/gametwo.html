@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="gametwo.css">
 </head>
 <body>
-    <canvas id="canvas"></canvas>
+
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        <p>GAME SPEED <span id="speedValue"> </span> </p>
+        <input type="range" max="20" min="1" value="5" name="gameSpeed" id="gameSpeed">
+    </div>
 
     <script src="gametwo.js"></script>
 </body>
